@@ -52,7 +52,6 @@
 
 .home-container {
   display: flex;
-  align-items: center;
   flex-direction: column;
   margin: 0 auto;
   width: 900px; }
@@ -73,7 +72,9 @@
 .project-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 900px; }
   .project-container .card {
     display: flex;
     align-items: center;
