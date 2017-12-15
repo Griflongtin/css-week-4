@@ -13,6 +13,8 @@
     padding: 5px;
     margin: 5px;
     border-radius: 10px; }
+  .nav-container .nav-button:hover, .nav-container .nav-mid-button:hover {
+    animation: wiggle 1.5s infinite; }
   .nav-container .position {
     position: relative;
     width: 120px; }
@@ -33,7 +35,7 @@
 
 @keyframes wiggle {
   0% {
-    transform: rotate(20deg); }
+    transform: rotate(0deg); }
   20% {
     transform: rotate(-20deg); }
   40% {
