@@ -1,10 +1,13 @@
+#projects {
+  display: none;
+}
+
+
 .project-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   .card {
-     display: flex;
-     animation-name: cardin;
-     animation-duration: 3s;
      display: flex;
      align-items: center;
      margin: 20px;
@@ -23,11 +26,6 @@
          width: 100%;
          height: 250px;
          border-radius: 4px;
-         img {
-           position: relative;
-           top: 50%;
-           transform: translateY(-50%);
-         }
        }
        .card-slide-box {
          position: absolute;
@@ -36,7 +34,7 @@
          height: 365px;
          top: 326px;
          background-color: #00000088;
-
+         transition: all 500ms ease;
          color: black;
        }
        .card-slide-box:hover {

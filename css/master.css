@@ -67,13 +67,14 @@
       font-size: 30px;
       text-transform: uppercase; }
 
+#projects {
+  display: none; }
+
 .project-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; }
   .project-container .card {
-    display: flex;
-    animation-name: cardin;
-    animation-duration: 3s;
     display: flex;
     align-items: center;
     margin: 20px;
@@ -92,10 +93,6 @@
         width: 100%;
         height: 250px;
         border-radius: 4px; }
-        .project-container .card .card-content .card-img img {
-          position: relative;
-          top: 50%;
-          transform: translateY(-50%); }
       .project-container .card .card-content .card-slide-box {
         position: absolute;
         border-radius: 4px;
@@ -103,6 +100,7 @@
         height: 365px;
         top: 326px;
         background-color: #00000088;
+        transition: all 500ms ease;
         color: black; }
       .project-container .card .card-content .card-slide-box:hover {
         background-color: #000000cc;
