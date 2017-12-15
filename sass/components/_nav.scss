@@ -4,15 +4,35 @@
   background-color: $background-one;
   width: 85%;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 40px auto;
+  border-radius: 10px;
   .nav-button {
     background-color: $background-one;
     text-align: center;
     border: 1px solid white;
     padding: 5px;
     margin: 5px;
-    a {
-      text-decoration: none;
+    border-radius: 10px;
+  }
+  .position {
+    position: relative;
+    width: 120px;
+    .nav-mid-button {
+      position: absolute;
+      text-align: center;
+      top: -40px;
+      width: 120px;
+      height: 120px;
+      background-color: $color-one;
+      border-radius: 50%;
+      a {
+        display: block;
+        position: absolute;
+        top: 40px;
+      }
     }
+  }
+  a {
+    text-decoration: none;
   }
 }

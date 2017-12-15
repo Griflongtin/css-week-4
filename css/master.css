@@ -4,16 +4,46 @@
   background-color: #9f9f9f;
   width: 85%;
   max-width: 800px;
-  margin: 20px auto; }
+  margin: 40px auto;
+  border-radius: 10px; }
   .nav-container .nav-button {
     background-color: #9f9f9f;
     text-align: center;
     border: 1px solid white;
     padding: 5px;
-    margin: 5px; }
-    .nav-container .nav-button a {
-      text-decoration: none; }
+    margin: 5px;
+    border-radius: 10px; }
+  .nav-container .position {
+    position: relative;
+    width: 120px; }
+    .nav-container .position .nav-mid-button {
+      position: absolute;
+      text-align: center;
+      top: -40px;
+      width: 120px;
+      height: 120px;
+      background-color: skyblue;
+      border-radius: 50%; }
+      .nav-container .position .nav-mid-button a {
+        display: block;
+        position: absolute;
+        top: 40px; }
+  .nav-container a {
+    text-decoration: none; }
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(20deg); }
+  20% {
+    transform: rotate(-20deg); }
+  40% {
+    transform: rotate(20deg); }
+  60% {
+    transform: rotate(-20deg); }
+  80% {
+    transform: rotate(20deg); }
+  100% {
+    transform: rotate(0deg); } }
 /*
 	HTML5 Reset :: style.css
 	----------------------------------------------------------
