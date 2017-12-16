@@ -6,15 +6,15 @@
 
 ## Description
 
-_This is a portfolio website. This has spots to put info and thing you like to do. It has a play for Thing you are interested in._
+_This is a portfolio website. This website has spots to put info about thing you like to do. It has a spots for thing you are interested in._
 
 ## Setup/Installation Requirements
 
 * Open up terminal and type in: cd ~
 * Then type in: cd Desktop
-* Then type in: git clone: https://github.com/Griflongtin/
-* Then go to your Desktop and find the new file called *********, Open it.
-* Then just open the index.html file.
+* Then type in: git clone: https://github.com/Griflongtin/css-week-4
+* Then go to your Desktop and find the new file called css-week-4, Open it.
+* Then just open the index.html file.S
 
 ## Support and contact details
 
