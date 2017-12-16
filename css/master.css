@@ -35,6 +35,9 @@
     border: none;
     background-color: transparent; }
 
+@media screen and (max-width: 509px) {
+  .position {
+    display: none; } }
 @keyframes wiggle {
   0% {
     transform: rotate(0deg); }
@@ -52,7 +55,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 900px; }
+  max-width: 900px;
+  text-align: center; }
   .home-container .header {
     display: flex;
     align-items: center;
@@ -72,7 +76,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 900px; }
+  max-width: 900px; }
   .project-container .card {
     display: flex;
     align-items: center;
@@ -120,7 +124,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 900px; }
+  max-width: 900px; }
   .skills-container h1, .skills-container h4 {
     text-transform: uppercase; }
   .skills-container h1 {
@@ -136,7 +140,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 900px; }
+  max-width: 900px;
+  text-align: center; }
   .interests-container h1 {
     text-transform: uppercase; }
   .interests-container h1 {

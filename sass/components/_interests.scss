@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 900px;
+  max-width: 900px;
+  text-align: center;
   h1 {
     text-transform: uppercase;
   }
