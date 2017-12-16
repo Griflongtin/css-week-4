@@ -47,9 +47,6 @@
     transform: rotate(20deg); }
   100% {
     transform: rotate(0deg); } }
-#home-tab {
-  display: none; }
-
 .home-container {
   display: flex;
   flex-direction: column;
@@ -115,6 +112,9 @@
         font-size: 1.5em;
         border-bottom: 1px solid white; }
 
+#skills {
+  display: none; }
+
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -130,6 +130,17 @@
 
 #intrests {
   display: none; }
+
+.intrests-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 900px; }
+  .intrests-container h1 {
+    text-transform: uppercase; }
+  .intrests-container h1 {
+    align-self: center;
+    font-size: 30px; }
 
 /*
 	HTML5 Reset :: style.css
