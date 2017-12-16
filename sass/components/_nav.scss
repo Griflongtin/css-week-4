@@ -29,14 +29,15 @@
       height: 120px;
       background-color: $color-one;
       border-radius: 50%;
-      a {
+      button {
         display: block;
         position: absolute;
-        top: 40px;
+        top: 43px;
       }
     }
   }
-  a {
-    text-decoration: none;
+  button {
+    border: none;
+    background-color: transparent;
   }
 }
